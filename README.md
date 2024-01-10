@@ -1,11 +1,10 @@
-<h1>React + TS + Tailwind CSS</h1>
+#Vite React Typescript + Tailwind CSS Todo-List Project
 
-<h2>Output Design</h2>
-![My Image](outputdesign.png)
+##Sources
 
-<h2>Features</h2>
-<li>validate form if input is empty</li>
-<li>validate input if already exist</li>
-<li>save and retrieve data from Local Web Storage</li>
-
---this is my version 2 of React Todo
+1. Typescript by Net Ninja
+>https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
+2. React by Net Ninja
+>https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d
+3.Tailwind CSS by FreeCodeCamp
+>https://www.youtube.com/watch?v=ft30zcMlFao
