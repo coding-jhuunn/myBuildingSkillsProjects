@@ -1,10 +1,10 @@
-#Vite React Typescript + Tailwind CSS Todo-List Project
+# Vite React Typescript + Tailwind CSS Todo-List Project
 ## Features ADDED
 1.Validate from if input is empty or input is already exist
 2.Save and retrieve data from Local Web Storage 
 
 
-##Sources
+## Sources
 1. Typescript by Net Ninja
 >https://www.youtube.com/watch?v=2pZmKW9-I_k&list=PL4cUxeGkcC9gUgr39Q_yD6v-bSyMwKPUI
 2. React by Net Ninja
