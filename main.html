@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone Design</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/content.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+  
+        <div class="header">
+            <div class="left-side">
+                <img class="hamburger-menu" src="/icons/hamburger-menu.svg" alt="">
+                <img class="youtube-logo" src="/icons/youtube-logo.svg" alt="">
+            </div>
+            <div class="middle-side">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-button-icon" src="/icons/search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                </button>
+               <button class="voice-search-button">
+                <img class="voice-search-button-icon" src="/icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search with your voice</div>
+               </button>
+            </div>
+            <div class="right-side">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="/icons/upload.svg" alt="">
+                    <div class="tooltip">Create</div>
+                </div>
+                <img class="youtube-apps-icon" src="/icons/youtube-apps.svg" alt="">
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="/icons/notifications.svg" alt="">
+                    <div class="notifications-count">3</div>
+                </div>
+                <img class="current-user-picture" src="/icons/mainprofile.jpg" alt="">
+            </div>
+        </div>
+ 
+    <nav class="sidebar">
+        <div class="sidebar-content">
+            <img class="sidebar-icon" src="/icons/home.svg" alt="">
+            <div class="sidebar-details" >Home</div>
+        </div>
+        <div class="sidebar-content">
+            <img class="sidebar-icon" src="/icons/explore.svg" alt="">
+            <div class="sidebar-details" >Explore</div>
+        </div>
+        <div class="sidebar-content">
+            <img class="sidebar-icon" src="/icons/subscriptions.svg" alt="">
+            <div class="sidebar-details" >Subscriptons</div>
+        </div>
+        <div class="sidebar-content">
+            <img class="sidebar-icon" src="/icons/originals.svg" alt="">
+            <div class="sidebar-details" >Orignal</div>
+        </div>
+        <div class="sidebar-content">
+            <img class="sidebar-icon" src="/icons/youtube-music.svg" alt="">
+            <div class="sidebar-details" >Youtube Music</div>
+        </div>
+        <div class="sidebar-content">
+            <img class="sidebar-icon" src="/icons/library.svg" alt="">
+            <div class="sidebar-details" >Library</div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="video-grid">
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover1.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile1.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            My Pixel 7 Pro Review
+                        </p>
+                        <p class="video-author">
+                            Dave2D
+                        </p>
+                        <p class="video-stats">
+                            428K views &#8226; 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover2.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile2.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Asian Jim - The Office
+                        </p>
+                        <p class="video-author">
+                            The Office
+                        </p>
+                        <p class="video-stats">
+                            13M views &#8226; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover3.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile3.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            What do I do as a Software Engineer?
+                        </p>
+                        <p class="video-author">
+                            mayuko
+                        </p>
+                        <p class="video-stats">
+                            1.2M views &#8226; 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover4.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile4.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Dewdrop Dynasty Kickstarter
+                        </p>
+                        <p class="video-author">
+                            Goodgis
+                        </p>
+                        <p class="video-stats">
+                            17K views &#8226; 10 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover5.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile5.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Peaceful Journey Chill Lofi Beats
+                        </p>
+                        <p class="video-author">
+                            the bootleg boy
+                        </p>
+                        <p class="video-stats">
+                            391K views &#8226; 5 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover6.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile6.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The STRANGEST monitor I've ever tried
+                        </p>
+                        <p class="video-author">
+                            DamiLee
+                        </p>
+                        <p class="video-stats">
+                            267K views &#8226; 3 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover7.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile7.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            What program to use for Pixel Art? (Paid and Free Software)
+                        </p>
+                        <p class="video-author">
+                            Brandon James Greer
+                        </p>
+                        <p class="video-stats">
+                            900K views &#8226; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover8.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile8.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Cool PC Accessories You've Never Heard Of!
+                        </p>
+                        <p class="video-author">
+                            Hardware Canucks
+                        </p>
+                        <p class="video-stats">
+                            3.8M views &#8226; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover9.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile9.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Su Lee - I'll Just Dance [Offical Music Video]|What my mental breakdown sounds like
+                        </p>
+                        <p class="video-author">
+                            Su Lee
+                        </p>
+                        <p class="video-stats">
+                            2.9M views &#8226; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover10.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile10.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            I tried 10 code editors
+                        </p>
+                        <p class="video-author">
+                            Fireship
+                        </p>
+                        <p class="video-stats">
+                            1M views &#8226; 2 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover11.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile11.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            How can a PC store SO PERFECT exist?!
+                        </p>
+                        <p class="video-author">
+                            Bitwit
+                        </p>
+                        <p class="video-stats">
+                            1.2M views &#8226; 10 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-content">
+                <div class="cover-row">
+                    <img class="thumbnail" src="/cover/cover12.webp">
+                    <div class="video-time">14:20</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="/profile/profile12.jpg" alt="">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            inside the world of mechanical keyboards
+                        </p>
+                        <p class="video-author">
+                            Answer in Progress
+                        </p>
+                        <p class="video-stats">
+                            718k views &#8226; 7 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
